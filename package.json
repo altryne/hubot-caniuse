@@ -1,0 +1,11 @@
+{
+  "name": "hubot-caniuse",
+  "version": "1.0.0",
+  "description": "A caniuse hubot script",
+  "main": "hubot-caniuse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Volkov <git@alexw.me> (http://alexw.me)",
+  "license": "ISC"
+}
