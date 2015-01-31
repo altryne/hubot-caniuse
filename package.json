@@ -6,6 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+      "hubot",
+      "hubot-scripts"
+    ],
+
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:altryne/hubot-caniuse.git"
+    },
+
+    "bugs": {
+      "url": "https://github.com/altryne/hubot-caniuse/issues"
+    },
+
+    "dependencies": {
+      "fuzzy": "^0.1.0",
+      "request": "^2.51.0"
+    },
   "author": "Alex Volkov <git@alexw.me> (http://alexw.me)",
   "license": "ISC"
 }
