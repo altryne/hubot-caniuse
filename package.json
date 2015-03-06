@@ -22,7 +22,8 @@
 
     "dependencies": {
       "fuzzy": "^0.1.0",
-      "request": "^2.51.0"
+      "request": "^2.51.0",
+      "lodash": "^3.3.1"
     },
   "author": "Alex Volkov <git@alexw.me> (http://alexw.me)",
   "license": "ISC"
