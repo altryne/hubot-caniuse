@@ -33,7 +33,7 @@ module.exports = (robot) ->
   robot.respond /(?:can.?i.?use )(.*)/i, (msg) ->
     results = fuzzy.filter(msg.match[1], Object.keys(exports.caniuse_data))
     if results.length > 2
-      msg.send "Found more then #{results.length - 1} results, please narrow down your search to one of the following: \n `#{_.pluck(results, 'string').join(', ')}`"
+      msg.send "Found more than #{results.length - 1} results, please narrow down your search to one of the following: \n `#{_.pluck(results, 'string').join(', ')}`"
     else if results.length > 0
       msg.send prepareResult result for result in results
     else
